@@ -1,19 +1,11 @@
-#lets make a clock
 from tkinter import *
 from tkinter import ttk,messagebox
 import datetime
-from PIL import Image,ImageTk
 
 win = Tk()
 win.title("Clock")
 win.minsize(width=420,height=300)
 win.maxsize(width=420,height=300)
-# win.iconbitmap("icons8-login-64.png")
-# bg=ImageTk.PhotoImage(file="wallpaperflare.com_wallpaper (3).jpg")
-# label = Label(win,image=bg)
-# label.place(x=0,y=0,relwidth=1,relheight=1)
-
-
 win.config(bg="lightgreen")
 
 def display():
@@ -280,134 +272,78 @@ def sets():
                        'lightgrey')
     comobox2.current(0)
     comobox2['state']='readonly'
-    # change = Button(top,text="Change",cursor="plus")
-    # change.place(y=90)
 
     def green():
         win.config(bg="green")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="green")
         labelp.config(bg="green")
         labelq.config(bg="green")
         labelj.config(bg="green")
         displaying.config(bg="green")
-        # labelins.config(bg="green")
-        # labelins1.config(bg="green")
 
     def yellow():
         win.config(bg="yellow")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="yellow")
         labelp.config(bg="yellow")
         labelq.config(bg="yellow")
         labelj.config(bg="yellow")
         displaying.config(bg="yellow")
-        # labelins.config(bg="yellow")
-        # labelins1.config(bg="yellow")
 
     def Cyan():
         win.config(bg="cyan")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="cyan")
         labelp.config(bg="cyan")
         labelq.config(bg="cyan")
         labelj.config(bg="cyan")
         displaying.config(bg="cyan")
-        # labelins.config(bg="cyan")
-        # labelins1.config(bg="cyan")
 
     def Blue():
         win.config(bg="blue")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="blue")
         labelp.config(bg="blue")
         labelq.config(bg="blue")
         labelj.config(bg="blue")
         displaying.config(bg="blue")
-        # labelins.config(bg="blue")
-        # labelins1.config(bg="blue")
 
     def Red():
         win.config(bg="red")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="red")
         labelp.config(bg="red")
         labelq.config(bg="red")
         labelj.config(bg="red")
         displaying.config(bg="red")
-        # labelins.config(bg="red")
-        # labelins1.config(bg="red")
 
     def Pink():
         win.config(bg="pink")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="pink")
         labelp.config(bg="pink")
         labelq.config(bg="pink")
         labelj.config(bg="pink")
         displaying.config(bg="pink")
-        # labelins.config(bg="pink")
-        # labelins1.config(bg="pink")
 
     def Grey():
         win.config(bg="grey")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="grey")
         labelp.config(bg="grey")
         labelq.config(bg="grey")
         labelj.config(bg="grey")
         displaying.config(bg="grey")
-        # labelins.config(bg="grey")
-        # labelins1.config(bg="grey")
 
     def Orange():
         win.config(bg="orange")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="orange")
         labelp.config(bg="orange")
         labelq.config(bg="orange")
         labelj.config(bg="orange")
         displaying.config(bg="orange")
-        # labelins.config(bg="orange")
-        # labelins1.config(bg="orange")
 
     def deflo():
         win.config(bg="lightgreen")
-        # label.config(bg="green")
-        # label1.config(bg="green")
-        # label2.config(bg="green")
-        # label3.config(bg="green")
         labelo.config(bg="lightgreen")
         labelp.config(bg="lightgreen")
         labelq.config(bg="lightgreen")
         labelj.config(bg="lightgreen")
         displaying.config(bg="lightgreen")
-        # labelins.config(bg="lightgreen")
-        # labelins1.config(bg="lightgreen")
 
     button = Button(top,text="Green ",relief=RAISED,cursor="cross",command=green)
     button.place(y=30 , width=40)
@@ -448,11 +384,6 @@ label2.place(x=210,y=1,width=100,height=90)
 
 label3 = Label(win,text="00",font=('Elephant','27'))
 label3.place(x=310,y=1,width=100,height=90)
-
-#########################################################################
-
-# labelm = Label(win,text="Date",bg="lightgrey")
-# labelm.place(x=120,y=99,width=200,height=70)
 
 ##########################################################################
 
